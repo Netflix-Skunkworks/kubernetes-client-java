@@ -31,3 +31,6 @@ hs_err_pid*
 # generated stuff
 kubernetes/bin
 kubernetes/swagger.json.unprocessed
+
+.gradle
+client-all/build
