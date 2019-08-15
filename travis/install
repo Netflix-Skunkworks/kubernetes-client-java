@@ -1,0 +1,6 @@
+#!/bin/bash
+# Used by the install step on Travis
+
+echo "Run package in quiet mode to prevent log file overflow..."
+mvn -q package 2>&1 > /dev/null
+mvn package
