@@ -33,4 +33,4 @@ kubernetes/bin
 kubernetes/swagger.json.unprocessed
 
 .gradle
-client-all/build
+build
